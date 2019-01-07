@@ -52,8 +52,8 @@ let colors = {
   'grey-dark': '#666666',
   'grey': '#888888',
   'grey-light': '#999999',
-  'grey-lighter': '#f1f5f8',
-  'grey-lightest': '#f8fafc',
+  'grey-lighter': '#f5f5f5',
+  'grey-lightest': '#f1f1f1',
   'white': '#ffffff',
 
   'red-darkest': '#3b0d0c',
@@ -66,7 +66,7 @@ let colors = {
 
   'orange-darkest': '#462a16',
   'orange-darker': '#613b1f',
-  'orange-dark': '#de751f',
+  'orange-dark': '#da4917',
   'orange': '#f6993f',
   'orange-light': '#faad63',
   'orange-lighter': '#fcd9b6',
@@ -228,6 +228,11 @@ module.exports = {
       'Courier New',
       'monospace',
     ],
+    'display': [
+      'Changa One',
+      'Lato',
+      'sans-serif'
+    ]
   },
 
 
@@ -954,9 +959,21 @@ module.exports = {
   */
 
   plugins: [
-    require('tailwindcss/plugins/container')({
-      // center: true,
-      // padding: '1rem',
+    require('tailwindcss-border-gradients')({
+      variants: ['responsive', 'hover'],
+      gradients: {
+        'brand': ['#F88227', '#BC1B08'],
+        'dark-grey': ['#111111', '#333333'],
+        'light-grey-white': ['#f5f5f5', '#ffffff']
+      },
+    }),
+    require('tailwindcss-gradients')({
+      variants: ['responsive', 'hover'],
+      gradients: {
+        'brand': ['#F88227', '#BC1B08'],
+        'dark-grey': ['#111111', '#222222'],
+        'light-grey-white': ['#f5f5f5', '#ffffff']
+      },
     }),
   ],
 
