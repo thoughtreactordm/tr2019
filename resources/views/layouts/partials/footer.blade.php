@@ -5,7 +5,7 @@
 
     <p class="m-6">
         Built with <a href="https://laravel.com">Laravel</a>,
-        <a href="https://wink.themsaid.com/">Wink</a>,
+        <a href="https://laravelvoyager.com/">Voyager</a>,
         and <a href="https://tailwindcss.com">TailwindCSS</a>.
     </p>
 </footer>

@@ -13,7 +13,7 @@ const app = new Vue({
     },
 
     methods: {
-        toggleMenu(){
+        toggleMenu() {
             this.menu = !this.menu;
 
             let scroll = this.menu ? 'hidden' : 'auto';

@@ -1,5 +1,8 @@
 <transition name="fade" mode="in-out">
-    <header class="w-screen h-screen fixed bg-gradient-tl-dark-grey" v-show="menu">
+    <header class="w-screen h-screen fixed bg-gradient-tl-dark-grey"
+            v-show="menu"
+            v-cloak
+    >
         <div class="w-full h-full menu flex flex-col justify-center items-center text-4xl">
             @include('layouts.partials.nav-links')
         </div>
