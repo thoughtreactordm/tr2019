@@ -63,6 +63,7 @@ div.menu {
 
   a {
     transition: all 0.2s ease-in-out;
+    color: white;
   }
 
   a:hover {
@@ -100,6 +101,10 @@ img.logo {
 
 button.menu-button {
   z-index: 99;
+}
+
+section.loader {
+  z-index: 101;
 }
 
 @media (max-width: 768px) {

@@ -9,7 +9,13 @@ const app = new Vue({
     el: '#app',
 
     data: {
-        menu: false
+        menu: false,
+        loading: true,
+        dark: false
+    },
+
+    mounted() {
+        this.loading = false;
     },
 
     methods: {

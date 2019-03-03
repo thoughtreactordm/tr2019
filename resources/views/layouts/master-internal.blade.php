@@ -13,7 +13,7 @@
 
     @yield('hero')
 
-    <div class="container mx-auto max-w-lg">
+    <div class="container mx-auto max-w-2xl">
 
         <main>
             @yield('content')

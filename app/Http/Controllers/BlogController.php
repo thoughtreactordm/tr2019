@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use TCG\Voyager\Models\Post;
+use App\Post;
+use function strip_tags;
 
 class BlogController extends Controller
 {
@@ -11,6 +12,7 @@ class BlogController extends Controller
     {
         $posts = Post::latest()
             ->whereStatus('PUBLISHED')
+            ->with('author')
             ->paginate(3);
 
         return view('pages.home', compact('posts'));
@@ -27,14 +29,14 @@ class BlogController extends Controller
 //            ->take(3)
 //            ->get();
 
-//        $previous = Post::where('id', '>', $post->id)->first();
-//        $next = Post::where('id', '<', $post->id)->orderBy('id', 'desc')->first();
+        $previous = Post::where('id', '>', $post->id)->first();
+        $next = Post::where('id', '<', $post->id)->orderBy('id', 'desc')->first();
 
         return view('blog.show', [
             'post' => $post,
 //            'related' => $related,
-//            'previous' => $previous,
-//            'next' => $next
+            'previous' => $previous,
+            'next' => $next
         ]);
     }
 }

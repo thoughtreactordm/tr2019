@@ -12,7 +12,7 @@
 <header class="p-6 bg-gradient-tl-dark-grey border-t-8 border-gradient-r-brand shadow-lg">
     <div class="container mx-auto max-w-lg">
         <div class="flex justify-between items-center">
-            <a href="/">
+            <a href="/" class="brand">
                 <img src="/img/logo.svg" alt="Thought Reactor" class="logo">
             </a>
 
@@ -23,6 +23,7 @@
             <button
                     class="menu-button xl:hidden lg:hidden md:hidden sm:hidden xs:block text-white p-5 bg-gradient-br-brand"
                     @click="toggleMenu"
+                    v-cloak
             >
                 <i class="fas fa-bars fa-fw fa-1x"></i>
             </button>
