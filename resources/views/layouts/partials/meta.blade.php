@@ -1,15 +1,11 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47036341-4"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'UA-47036341-4');
+  gtag('config', 'UA-47036341-4');
 </script>
 
 <meta charset="utf-8">
@@ -25,17 +21,15 @@
 <title>@yield('title') | Thought Reactor</title>
 
 <script type="application/ld+json">
-{ "@context" : "http://schema.org",
-  "@type" : "Organization",
-  "name" : "Thought Reactor",
-  "url" : "https://thought-reactor.net",
-  "sameAs" : [ "https://www.facebook.com/ThoughtReactor",
-    "https://twitter.com/thought_reactor",
-	"https://www.youtube.com/TheThoughtReactor"]
+{
+    "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "name" : "Thought Reactor",
+      "url" : "https://thought-reactor.net",
+      "sameAs" : [ "https://www.facebook.com/ThoughtReactor",
+        "https://twitter.com/thought_reactor",
+        "https://www.youtube.com/TheThoughtReactor"]
 }
-
-
-
 </script>
 
 @if(isset($page))

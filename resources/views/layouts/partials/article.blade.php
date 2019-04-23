@@ -20,6 +20,11 @@
 
     <div class="p-3 text-grey-light bg-gradient-r-light-grey-white flex flex-wrap justify-between border-gradient-r-grey-white border-t-2">
         <strong>By {{ $post->author["name"] }}</strong>
-        <em>Last updated {{ $post->updated_at->format('F jS, Y') }}</em>
+
+        @if($post->updated_at > $post->created_at)
+            <em>Last updated {{ $post->updated_at->format('F jS, Y') }}</em>
+        @else
+            <em>Posted on {{ $post->created_at->format('F jS, Y') }}</em>
+        @endif
     </div>
 </article>

@@ -13,6 +13,8 @@
 
     @yield('hero')
 
+    @yield('content-fw')
+
     <div class="container mx-auto max-w-2xl">
 
         <main>
