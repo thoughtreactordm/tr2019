@@ -10,7 +10,7 @@
 
 @section('content-fw')
 {{--  INTRO  --}}
-<div class="p-16 bg-gradient-br-brand text-center">
+<div class="p-16 xs:p-8 bg-gradient-br-brand text-center">
 
     <div class="container mx-auto max-w-lg text-orange-lighter">
         <h1 class="text-white text-5xl">Engage. Entertain. Enlighten.</h1>
@@ -23,7 +23,7 @@
 </div>
 
 {{--  WHY PUZZLES?  --}}
-<div class="p-16 text-center">
+<div class="p-16 xs:p-8 text-center">
 
     <div class="container mx-auto max-w-lg text-grey-dark">
         <h2 class="text-4xl">Why Puzzles?</h2>
@@ -40,7 +40,7 @@
 </div>
 
 {{--  OUR WORK SO FAR  --}}
-<div class="p-16 bg-gradient-bl-dark-grey text-center">
+<div class="p-16 xs:p-8 bg-gradient-bl-dark-grey text-center">
 
     <div class="container mx-auto max-w-lg text-grey-light">
         <h2 class="text-4xl text-white">Our Work So Far...</h2>
@@ -61,7 +61,7 @@
 </div>
 
 {{--  WHAT DOES THE FUTURE HOLD  --}}
-<div class="p-16 bg-gradient-br-brand text-center">
+<div class="p-16 xs:p-8 bg-gradient-br-brand text-center">
 
     <div class="container mx-auto max-w-lg text-orange-lighter">
         <h2 class="text-4xl text-white">What Does the Future Hold?</h2>
@@ -82,7 +82,7 @@
 </div>
 
 {{--  FOLLOW OUR JOURNEY  --}}
-<div class="pt-16 text-center">
+<div class="p-16 xs:p-8 text-center">
 
     <div class="container mx-auto max-w-lg">
 

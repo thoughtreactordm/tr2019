@@ -14,10 +14,10 @@
         @include('layouts.partials.article')
     @empty
         <div class="m-8 text-center">
-            <h1>He's tryin'!</h1>
+            <h1 class="mb-4">He's tryin'!</h1>
             <img class="w-full shadow" src="{{ asset('/img/meeseeks.png') }}">
 
-            <h3>Nothings broken - just working on getting the first blog post up!</h3>
+            <h3 class="mt-4">Nothings broken - just working on getting the first blog post up!</h3>
         </div>
     @endforelse
 
