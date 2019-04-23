@@ -21,7 +21,7 @@
 @section('content')
 
     <article class="bg-white shadow-md">
-        <div class="p-16 xs:p-4">
+        <div class="p-16 xs:p-4 leading-open">
             {!! $post->body !!}
         </div>
 

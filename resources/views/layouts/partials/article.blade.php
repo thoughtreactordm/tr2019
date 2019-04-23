@@ -14,7 +14,7 @@
     </div>
 
 
-    <div class="p-8">
+    <div class="p-8 leading-open">
         {!! $post->body !!}
     </div>
 
