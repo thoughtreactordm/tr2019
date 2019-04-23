@@ -15,7 +15,7 @@
     @empty
         <div class="m-8 text-center">
             <h1>He's tryin'!</h1>
-            <img class="m-4 shadow" src="{{ asset('/img/meeseeks.png') }}">
+            <img class="w-full m-4 shadow" src="{{ asset('/img/meeseeks.png') }}">
 
             <h3>Nothings broken - just working on getting the first blog post up!</h3>
         </div>
