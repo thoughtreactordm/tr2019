@@ -33,7 +33,8 @@
         </p>
 
         <p class="my-6 text-2xl">
-            By leveraging the strongest faculties of our minds we can spurn both challenge, reward, and creative divergence. Thought Reactor designs games purposefully to enable those portions of the brain to hopefully provide an enriching gameplay experience free from gimmicks and manipulation. Through the use of these pathways we aim to make games that illicit the rewarding feeling of surmounting a challenge and arising victorious.
+            By leveraging the strongest faculties of our minds we can blend both challenge, reward, and creative
+            divergence. Thought Reactor designs games purposefully to enable those portions of the brain to hopefully provide an enriching gameplay experience free from gimmicks and manipulation. Through the use of these pathways we aim to make games that illicit the rewarding feeling of surmounting a challenge and arising victorious.
         </p>
     </div>
 
